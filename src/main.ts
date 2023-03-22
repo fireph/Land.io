@@ -1,4 +1,5 @@
 import { Engine, Loader, vec, Input } from "excalibur";
+import { io } from "socket.io-client";
 import { Player } from "./player";
 import { Resources } from "./resources";
 
@@ -7,6 +8,15 @@ class Game extends Engine {
     super({width: 800, height: 600});
   }
   initialize() {
+
+    const socket = io("ws://localhost:3000");
+
+    // listen for new messages
+    socket.on("message", (data) => {
+      console.log(data);
+    });
+
+    socket.emit("message", "HELLO WORLD");
     
     const playerSpeed = 20;
     const playerVel = vec(0, 0);

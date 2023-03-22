@@ -26,11 +26,13 @@
   },
   "homepage": "https://github.com/fireph/Land.io#readme",
   "devDependencies": {
+    "@types/socket.io-client": "^3.0.0",
     "excalibur": "^0.27.0",
     "typescript": "^5.0.2",
     "vite": "^4.2.1"
   },
   "dependencies": {
-    "@excaliburjs/testing": "^0.25.0"
+    "@excaliburjs/testing": "^0.25.0",
+    "socket.io-client": "^4.6.1"
   }
 }
