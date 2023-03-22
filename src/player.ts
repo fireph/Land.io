@@ -6,14 +6,11 @@ export class Player extends Actor {
     super({
       pos: vec(150, 150),
       width: 100,
-      height: 100
+      height: 100,
     });
   }
 
   onInitialize() {
     this.graphics.add(Resources.Sword.toSprite());
-    this.on('pointerup', () => {
-      alert('yo');
-    });
   }
 }

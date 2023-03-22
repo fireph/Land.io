@@ -1,7 +1,7 @@
 {
-  "name": "template-ts-vite",
+  "name": "land.io",
   "version": "1.0.0",
-  "description": "Excalibur TypeScript template for Vite",
+  "description": "Capture that land!",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excaliburjs/template-ts-vite.git"
+    "url": "git+https://github.com/fireph/Land.io.git"
   },
   "keywords": [
     "excalibur",
@@ -19,16 +19,16 @@
     "vite",
     "game-engine"
   ],
-  "author": "Erik Onarheim",
+  "author": "fireph",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/excaliburjs/template-ts-vite/issues"
+    "url": "https://github.com/fireph/Land.io/issues"
   },
-  "homepage": "https://github.com/excaliburjs/template-ts-vite#readme",
+  "homepage": "https://github.com/fireph/Land.io#readme",
   "devDependencies": {
-    "excalibur": "0.27.0",
-    "typescript": "4.9.5",
-    "vite": "2.9.15"
+    "excalibur": "^0.27.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
   },
   "dependencies": {
     "@excaliburjs/testing": "^0.25.0"
